@@ -64,7 +64,9 @@ export default function RootLayout({
           src={process.env.UMAMI_DOMAIN}
           data-website-id={process.env.UMAMI_SITE_ID}
         ></Script>
+
         {/* <Analytics /> */}
+        
       </head>
       <body>
         <ThemeProvider
